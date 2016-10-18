@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
 </head>
 <body>
     <div class="container">
@@ -24,10 +25,10 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <!--<li class="active"><a href="#">Home</a></li>-->
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">C.V.</a></li>
-                    <li><a href="#">Hobbies</a></li>
-                    <li><a href="#">Works</a></li>
+                    <li><a href="#" id="buttonHome">Home</a></li>
+                    <li><a href="#" id="buttonResume">Resume</a></li>
+                    <li><a href="#" id="buttonHobbies">Hobbies</a></li>
+                    <li><a href="#" id="buttonWorks">Works</a></li>
                 </ul>
             <!--</div>-->
         </nav>
@@ -37,7 +38,7 @@
     </div>
 
 
-    <div class="container" id="inner">
+    <div class="container" id="mainInnerHtml">
         <div class="row">
             <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
             <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
@@ -55,6 +56,8 @@
         <div class="container">
             <a href="Egret/FirstSampleMK2/index.html">FirstSampleMK2</a>
         </div>
+
+        <button type="button" class="btn btn-default" id="buttonTest">Default</button>
 
     </div>
 </body>
