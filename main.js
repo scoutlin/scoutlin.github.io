@@ -50,12 +50,14 @@ function buttonClicked(id) {
 
         case "buttonHome":
             alert("buttonHome clicked");
-            var mainInnerHtml = document.getElementById('mainInnerHtml');
+            var mainInnerHtml = document.getElementById('subContent');
             mainInnerHtml.innerHTML = "";
             break;
 
         case "buttonResume":
             alert("buttonResume clicked");
+            //Load Dynamic Test Page(as html file)
+            document.getElementById("subContent").innerHTML = '<object type="text/html" height="600" width="1000" data="dynamicLoadTestPage.html" ></object>';       
             break;
 
         case "buttonHobbies":
